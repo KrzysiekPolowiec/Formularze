@@ -13,7 +13,28 @@
         
         <fieldset>
             <legend>Rejestracja</legend>
-
+            Email:<input type="email" required placeholder="user@gmail.com"/> <br/><hr>
+            Hasło:<input type="password" required placeholder="********"/> <br/> <hr>
+            Powtórz hasło:<input type="password" required placeholder="********"/> <br/> <hr>
+        
+        </fieldset>
+    </form>
+    <form id="daneosobowe">
+        <fieldset>
+            <legend>Dane osobowe</legend>
+            IMIĘ:<input type="text" required/> <br/> <hr>
+            NAZWISKO:<input type="text" required/> <br/> <hr>
+            DATA URODZENIA:<input type="date" required/> <br/> <hr>
+            MIASTO:<select>
+                <optgroup>
+                    <option>Bydgoszcz</option>
+                    <option>Kcynia</option>
+                    <option>Poznań</option>
+                </optgroup>
+            </select>
+            PŁEĆ: <input type="radio" name="opcja1" value="1"/> Kobieta
+            <input type="radio" name="opcja1" value="2"/>Mężczyzna
+            <input type="radio" name="opcja1" value="3"/> Inne: <input type="text">
         </fieldset>
     </form>
 </body>
